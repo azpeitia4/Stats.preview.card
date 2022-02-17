@@ -70,6 +70,17 @@
 	background-image: url(images/image-header-desktop.jpg);
 }
 
+.container:before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 513.359px;
+  right: 14.34%;
+  height: 424px;
+  background: hsl(277, 64%, 61%);
+  opacity: 20%;
+  border-radius: 0 10px 10px 0;
+
 /*img {
 	position: relative;
 	width: 100%;
